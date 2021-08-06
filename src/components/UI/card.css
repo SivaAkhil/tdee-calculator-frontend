@@ -1,0 +1,28 @@
+.card-container {
+  width: 150px;
+  background-color: blue;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card-number {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10000px;
+}
+
+.card-name {
+  height: 15px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+}

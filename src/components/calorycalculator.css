@@ -1,0 +1,18 @@
+.table-container {
+  background-color: white;
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+.row-container {
+  width: 100%;
+  background-color: darkseagreen;
+  color: aliceblue;
+}
+
+.calorie-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
