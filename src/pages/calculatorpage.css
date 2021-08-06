@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .calcpage-card-container {
@@ -41,4 +41,10 @@
 
 .input-divide-divs {
   margin: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+  .calcpage-inputs-container {
+    flex-direction: column;
+  }
 }
