@@ -20,7 +20,7 @@ const CalculatorPage = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://bmr-tdee-calculator.herokuapp.com/api/calculate", {
+      .post(`${process.env.REACT_APP_BACKEND_URL}/api/calculate`, {
         weight,
         BFP: bfp,
         AL: activity,
